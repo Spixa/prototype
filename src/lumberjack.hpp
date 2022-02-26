@@ -12,10 +12,10 @@ namespace axe {
     public:
     Lumberjack() : Entity(20, 5, "lumberjack") {
 
-      entityAnimations.push_back(Animation(this, "idle.png", {4, 1}, 0.1)); // 0
-      entityAnimations.push_back(Animation(this, "run.png", {6, 1}, 0.1)); // 1
-      entityAnimations.push_back(Animation(this, "attack.png", {6, 1}, 0.1)); // 3
-      entityAnimations.push_back(Animation(this, "walk.png", {6, 1}, 0.1)); // 2
+      entityAnimations.push_back(Animation(this, "../res/idle.png", {4, 1}, 0.1)); // 0
+      entityAnimations.push_back(Animation(this, "../res/run.png", {6, 1}, 0.1)); // 1
+      entityAnimations.push_back(Animation(this, "../res/attack.png", {6, 1}, 0.1)); // 3
+      entityAnimations.push_back(Animation(this, "../res/walk.png", {6, 1}, 0.1)); // 2
 
 
 
